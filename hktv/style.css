@@ -1,0 +1,41 @@
+#message-wrapper {
+  position: fixed;
+  left: 50%;
+  top: 20%;
+  z-index: 79689;
+  display: none;
+}
+
+#message {
+  position: relative;
+  left: -50%;
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+  background-color: #111111;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: #999;
+  border-style: solid;
+  padding: 20px;
+  max-width: 200px;
+  text-align: center;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: #111111;
+  font-family: "Open Sans", sans-serif;
+}
+
+#player {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
