@@ -20,7 +20,6 @@
   border-color: #999;
   border-style: solid;
   padding: 20px;
-  max-width: 200px;
   text-align: center;
 }
 
@@ -39,3 +38,27 @@ html, body {
   width: 100%;
   overflow: hidden;
 }
+
+button {
+  margin: 5px;
+  display: inline-block;
+  color: #444;
+  background-color: #eee;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-bottom-width: 3px;
+}
+  button:hover {
+    background-color: #e3e3e3;
+    border-color: rgba(0,0,0,0.5);
+  }
+  button:active {
+    background-color: #CCC;
+    border-color: rgba(0,0,0,0.9);
+  }
