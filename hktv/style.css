@@ -3,7 +3,7 @@
   left: 50%;
   top: 20%;
   z-index: 79689;
-  display: none;
+  /*display: none;*/
 }
 
 #message {
