@@ -1,64 +1,16 @@
-#message-wrapper {
-  position: fixed;
-  left: 50%;
-  top: 20%;
-  z-index: 79689;
+#menu-wrapper {
   display: none;
 }
 
-#message {
-  position: relative;
-  left: -50%;
-  font-size: 20px;
-  font-weight: 300;
-  color: #fff;
-  background-color: #111111;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  border-width: 1px;
-  border-color: #999;
-  border-style: solid;
-  padding: 20px;
-  text-align: center;
-}
-
 html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
   background-color: #111111;
   font-family: "Open Sans", sans-serif;
 }
 
 #player {
+  position: fixed;
+  top: 0px;
   height: 100%;
   width: 100%;
   overflow: hidden;
 }
-
-button {
-  margin: 5px;
-  display: inline-block;
-  color: #444;
-  background-color: #eee;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 12px;
-  padding: 10px 30px;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border: 1px solid rgba(0,0,0,0.3);
-  border-bottom-width: 3px;
-}
-  button:hover {
-    background-color: #e3e3e3;
-    border-color: rgba(0,0,0,0.5);
-  }
-  button:active {
-    background-color: #CCC;
-    border-color: rgba(0,0,0,0.9);
-  }
