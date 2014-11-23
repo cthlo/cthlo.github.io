@@ -1,5 +1,37 @@
-#menu-wrapper {
+#message-wrapper {
+  top: 10%;
+  z-index: 79689;
   display: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width:991px) {
+  #message-wrapper { padding: 0 4%; }
+}
+@media only screen and (min-width:992px) {
+  #message-wrapper { padding: 0 8%; }
+}
+@media only screen and (min-width:1500px) {
+  #message-wrapper { padding: 0 13%; }
+}
+@media only screen and (min-width:1750px) {
+  #message-wrapper { padding: 0 18%; }
+}
+
+#message {
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+  background-color: #111111;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: #999;
+  border-style: solid;
+  padding: 20px;
+  text-align: center;
 }
 
 html, body {
@@ -13,4 +45,29 @@ html, body {
   height: 100%;
   width: 100%;
   overflow: hidden;
+  z-index: -1;
 }
+
+button {
+  margin: 5px;
+  display: inline-block;
+  color: #444;
+  background-color: #eee;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 18px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-bottom-width: 3px;
+}
+  button:hover {
+    background-color: #e3e3e3;
+    border-color: rgba(0,0,0,0.5);
+  }
+  button:active {
+    background-color: #CCC;
+    border-color: rgba(0,0,0,0.9);
+  }
